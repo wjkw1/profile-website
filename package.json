@@ -12,5 +12,8 @@
     "@nuxtjs/tailwindcss": "^6.7.0",
     "@types/node": "^18",
     "nuxt": "^3.5.1"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.0.0-rc.2"
   }
 }

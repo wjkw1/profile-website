@@ -11,15 +11,14 @@ export default defineAppConfig({
       name: "linkedin",
       alt: "LinkedIn Logo",
       url: "https://www.linkedin.com/in/western-wilson",
-      image: "https://placehold.co/50",
-      // image: "./assets/logos/linkedin.svg",
+      // image: "https://placehold.co/50",
+      image: "logos/linkedin.svg",
     },
     {
       name: "github",
       alt: "GitHub Logo",
       url: "https://github.com/wjkw1",
-      image: "https://placehold.co/50",
-      // image: "./assets/logos/github.svg",
+      image: "logos/github.svg",
     },
     // {
     //   name: "instagram",

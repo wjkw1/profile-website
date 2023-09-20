@@ -1,11 +1,10 @@
 <script setup>
 const appConfig = useAppConfig()
-const padding = 10
 </script>
 
 <template>
     <footer class="bg-white flex flex-col mx-10 my-8">
-        <hr class="border-t border-gray-300 py-8 w-full">
+        <hr class="border-t border-gray-300 py-2 w-full sm:py-3">
         <div class="flex flex-col justify-center sm:flex-row sm:justify-between">
             <div class="w-full my-1 text-center sm:my-0 sm:text-left">
                 <NuxtLink class="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900"
@@ -17,7 +16,7 @@ const padding = 10
             </div>
             <div class="w-full my-1 text-center sm:my-0">
                 <a v-for="social in  appConfig.socials" :href="social.url">
-                    <img :src="social.image" :alt="social.alt" class="h-50 w-50 rounded-full inline-block mx-1 sm:mx-1">
+                    <NuxtImg :src="social.image" :alt="social.alt" class="h-50 w-50 inline-block mx-1 sm:mx-1" />
                 </a>
             </div>
             <div class="w-full my-1 text-center sm:my-0 sm:text-right">
