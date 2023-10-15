@@ -1,0 +1,17 @@
+<template>
+    <main class="flex flex-grow mx-10 px-3">
+        <div
+            class="flex flex-col items-center justify-center text-justify sm:mx-28 md:mx-32 lg:mx-48 xl:mx-48 2xl:xl:mx-48">
+            <NuxtImg src="western-zoom.png" class="rounded-full saturate-100 shadow-xl" height="200" width="200" />
+            <p class="my-1">Kia ora! I'm a problem solver in the world of IT, based in Wellington. With a BCMS(Hons) degree
+                from the University of Waikato, I've gained experience in Māori mentoring, front-end and back-end
+                development, network engineering, and DevOps. </p>
+            <p class="my-1">Currently, I'm contributing to the Papa Reo project at Te Hiku
+                Media, building natural language processing tools for Te Reo Māori.</p>
+            <p class="my-1">Beyond IT, I'm an avid app tinkerer,
+                reader, anime fan, fitness enthusiast, and enjoy quality time with friends.</p>
+            <p class="my-1">Join me on my journey to make meaningful contributions and solve useful problems in the dynamic
+                landscape of IT.</p>
+        </div>
+    </main>
+</template>
