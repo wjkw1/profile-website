@@ -8,6 +8,10 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+- Styling using Tailwindcss - https://tailwindcss.com/docs/guides/nuxtjs
+- Nuxt Images - https://image.nuxt.com/get-started/installation
+- Markdown content pages - https://content.nuxt.com/get-started/installation
+
 ## Setup
 
 Make sure to install the dependencies:
@@ -16,8 +20,6 @@ Make sure to install the dependencies:
 # yarn
 yarn install
 ```
-
-## Development Server
 
 Start the development server on `http://localhost:3000`
 
