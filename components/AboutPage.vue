@@ -1,5 +1,5 @@
 <template>
-    <main class="flex flex-grow justify-center mx-10 px-3">
+    <main class="flex grow justify-center mx-10 px-3">
         <div class="flex flex-col items-center justify-center text-justify max-w-2xl">
             <NuxtImg src="western-zoom.png" class="rounded-full saturate-100 shadow-xl my-3 sm:m-10" height="200"
                 width="200" />

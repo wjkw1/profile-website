@@ -33,7 +33,7 @@ defineProps({
 </script>
 
 <template>
-    <NuxtLink href="/">
+    <NuxtLink :href="slug">
         <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 px-6">
             <img class="w-full" src="logos/github.svg" alt="Sunset in the mountains">
             <div class="py-4">
