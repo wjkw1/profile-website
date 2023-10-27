@@ -3,5 +3,5 @@ export default defineNuxtConfig({
   runtimeConfig: {
     apiSecret: "12345678",
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/content"],
 });

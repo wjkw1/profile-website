@@ -1,5 +1,7 @@
 import Pages from './pages/index.vue';
 
 <template>
-  <NuxtPage />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
