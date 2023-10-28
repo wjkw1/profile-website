@@ -10,16 +10,8 @@ defineProps({
         type: String,
         default: 'IconMarkdown'
     },
-    createdAt: {
+    date: {
         type: String
-    },
-    updatedAt: {
-        type: String,
-        default: null
-    },
-    timeToRead: {
-        type: String,
-        default: null
     },
     slug: {
         type: String,
@@ -42,15 +34,10 @@ defineProps({
                     {{ description }}
                 </p>
             </div>
-            <div>
-                <em>
-                    <p v-if="updatedAt" class="text-sm text-gray-600 font-light">Updated: {{ updatedAt }}
-                    </p>
-                </em>
-                <em>
-                    <p v-if="createdAt" class="text-sm text-gray-600 font-light">Created at: {{ createdAt }}</p>
-                </em>
-            </div>
+            <em>
+                <p v-if="date" class="text-sm text-gray-600 font-light">{{ date }}
+                </p>
+            </em>
             <div v-if="tags.length > 0" class="flex flex-wrap pt-4 pb-2">
                 <span v-for="tag in tags"
                     class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{

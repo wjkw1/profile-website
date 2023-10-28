@@ -1,8 +1,7 @@
 ---
 title: 'My actual first blog on the new Website!'
 description: "I'm not a writer... but I'm gonna try."
-createdAt: 25/02/2023
-updatedAt: 22/10/2023
+date: 22/10/2023
 tags: ["happy","find","where"]
 ---
 This is the way.
