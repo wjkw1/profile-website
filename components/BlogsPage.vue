@@ -10,5 +10,5 @@
 <script setup>
 const { data: blogs } = await useAsyncData(
     "blogs",
-    () => queryContent("blog").only(['title', 'date', 'description', 'tags']).find())
+    () => queryContent("blog").only(['_id', '_path', 'title', 'date', 'description', 'tags']).find())
 </script>
