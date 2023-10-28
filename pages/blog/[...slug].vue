@@ -24,9 +24,4 @@ const { data: blog } = await useAsyncData(
     "blog",
     () => queryContent("blog").where({ _path: path.value }).findOne())
 </script>
-
-// posts = await $content('posts', { deep: true })
-//         .only(['title', 'date', 'path', 'tags'])
-//         .sortBy('path', 'desc')
-//         .fetch()
   
