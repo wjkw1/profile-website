@@ -1,87 +1,56 @@
 ---
 title: Talking Tech, to Non-Tech
 date: "2020-08-17"
-description: "Early in my career, I attended a workshop that taught me how to explain technical concepts to non-technical people. The session also covered some key aspects worth sharing. Keep reading to learn about my key takeaways."
+description: "Key takeaways from a workshop on explaining technical concepts to non-technical audiences."
+img: "/blog/sincerely-media-dGxOgeXAXm8-unsplash.jpg"
+imgAlt: "Photo of peoples laps at a conference."
 ---
 
-Early on in my career, I took part in a workshop that aimed to bridge the gap between technical and non-technical people when talking about technical concepts. The session also touched on some key aspects worth sharing. Read on to hear about some of my key takeaways...
+_Early in my career, I attended a workshop to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids._
 
-# Talking Tech
+## Simplifying Technical Jargon
 
-The easiest way to talk tech to non-technical people is to create analogies that explain the concepts you're trying to teach. During the day
-we explored a variety of analogies for different terminology (_We'll explore a couple in the next sections_). We also discussed that it's important to teach in a variety of ways, for example, some people are visual learners so a diagram helps.
+To communicate tech concepts to non-technical individuals, analogies are invaluable. 
 
-# Server, Client and the Stack
+### The Barrier of Technical Jargon
 
-Applications will be built will on top of a 'Stack', the 'Stack' in general comprises a Client, Server, and a Database. There are other variations but for simplicity, we'll use this as the example for this post.
-The client is the end-user with a Laptop or Mobile device. The server takes requests from the client, processes them, and gives a response back.
+In the tech world, complex terminology and buzzwords are commonplace. While they serve a purpose among peers, they can hinder communication with non-technical individuals.
 
-An analogy for the stack would be a person withdrawing money from a bank. Think of a stack as all the moving parts that make up an application.
+### Harnessing the Power of Analogies
 
-    Front-end -> Person/Client
-    Server    -> Bank Teller
-    Database  -> Money Stash
+Analogies act as bridges, simplifying intricate tech concepts for the non-technical. They make the unfamiliar more accessible, fostering better understanding and collaboration.
 
-# Different Types of Applications
+Striking the Balance
 
-For simplicity, we will talk about the following
+Balancing the use of technical jargon and analogies is key. Precision is vital in technical discussions, but in broader contexts, simplification enhances communication, collaboration, and innovation.
 
-    1. Web Application
-    2. Desktop Application
-    3. Mobile Application
+## Types of Applications
 
-Web applications run inside your internet browser, for example, Chrome, Edge, or Firefox. Desktop and Mobile applications run directly on your machine, desktop, or mobile phone.
-Netflix, Spotify, and Instagram are 3 examples of software with applications on all 3 platforms. Instagram tends to push users toward their Mobile Application (if using a mobile browser) because they have more control over the data. Netflix allows concurrent and synchronised use across all platforms. Spotify gives users synchronised experience also.
-There is technology on the market like [React Native](https://reactnative.dev/), which helps you create a Mobile Application using the same language as the web developers. This allows developers proficient in ReactJS to deliver benefits to customers faster using React Native framework.
+Applications can be web-based (run in browsers), desktop (run on a computer), or mobile (run on phones). Examples like Netflix, Spotify, and Instagram show the diversity of platforms.
 
-# APIs
+In simplified terms, an application's **Stack** includes a **Client** (the end-user with a Laptop or Mobile device), a **Server** (handles requests, processes data, and communicates with the Database), and a **Database** (stores information). Think of this stack like a person withdrawing money from a bank:
 
-An Application Programming Interface (API) is a way we can communicate with a piece of technology. For example, to communicate with Chorus we engage their technology calling an end-point their API functions.
+1. Front-end -> Person/Client
+2. Server    -> Bank Teller
+3. Database  -> Money Stash
 
-As an analogy, we can talk about ordering fast food at a restaurant.
 
-    1. Client   - the person ordering food
-    2. Server   - the cashier who takes the order
-    3. Database - the chefs who give back the order
+## Understanding APIs
 
-API in this above instance would then be the Menu we use to order food.
-For example, you go to Maccas and ask for a Big Mac, they understand your request given the
-money as input, then you receive a Big Mac burger.
-If you go to Burger King and order a Big Mac, they will not understand that request as it is not on
-their Menu.
+APIs (Application Programming Interfaces) are communication tools for technology. Think of ordering fast food: the client orders, the server takes the order, and the chefs in the kitchen fulfill it. An API is like the menu, specific to the restaurant you're at.
 
-> _[Check out this link](https://rapidapi.com/blog/access-global-weather-data-with-these-weather-apis/) for a list of basic weather APIs you can try out..._
+If you go to [Burger King](https://www.burgerking.co.nz/) and order a [Big Mac](https://mcdonalds.co.nz/menu/big-mac), the server will not understand that request as it is not on their Menu.
 
-# Types of People
+## Team Dynamics
 
-Understanding the types of people in your team, what are they driven by?
+Different types of team members, including detectives, cowboys, artists, and mad scientists, each have distinct work styles and motivations. Recognizing these differences can improve team collaboration.
 
-- Detectives - Love to investigate the mess and fix it up.
-- Cowboy / Go-getter - Pushes code out the door fastest, but generally leave a little bit of a dirty
-  sink
-- Artist or Creative - Cleans as they go, makes sure the code looks beautiful and is readable by
-  others may be a slower coder but will introduce less technical debt
-- Mad scientist - Loves to hook into the next best tech, looks forward to playing with new
-  libraries and trying out the latest features
+[Click here](/blog/developer-dynamics) to read the full article on these archetypes here.
 
-# Coding Takes Time
+## The Coding Process
 
-Coding is a complicated process with many moving parts. Developers tend to put headphones on and disappear for 3+ hours, this gets them in the flow state. A simple Slack notification or tap on the shoulder of a Developer who is in the flow state can stop productivity dead in its tracks. It takes time to get in the groove of things and it is important to remember that coding takes time.
-What can you do to help keep the devs productive? Keep your meetings grouped in the morning or afternoon (not scattered), to give them large chunks of time. You will see more productivity and happier devs :D
+Developers need uninterrupted time to code effectively. Minimize interruptions by scheduling meetings in blocks, improving productivity.
 
-# Future Technology
+## Future Technology
 
-## Full Stack Development
-
-Full-stack development is a powerful concept that is relevant now and sure to be more so in the future. Two reasons why:
-
-- One language for all parts of the stack
-- Some libraries translate a web app into Desktop and Mobile Apps
-  We looked at React (front-end) with Node.js (database/server) and AWS cloud architecture (database/server) as an example of a full-stack system. React Native was an example of using ReactJS to build a basic mobile application.
-
-## Distributed Technology
-
-Distributed systems, like BitTorrent for example. This is where the community share big downloads
-in chunks across the network.
-
-Blockchain is an interesting technology with real-world applications. I tend to think of blockchain is similar to how Git works, everyone has a copy of the entirety of a project. Everyone agrees communally what the final version is. They have a “ledger” in block-chain tech, this is a list of all transactions made. Everyone has this ledger and when it updates in one place, everyone else gets the update. This has a benefit for no single point of failure, is secured by encryption too.
+Full-stack development offers efficiency by using one language across all stack components. Libraries like React can translate web apps into desktop and mobile versions. Distributed technology, like blockchain, shares data across a network, reducing the risk of single points of failure and enhancing security.

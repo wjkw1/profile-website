@@ -10,6 +10,12 @@ defineProps({
         type: String,
         default: 'IconMarkdown'
     },
+    img: {
+        type: String,
+    },
+    imgAlt: {
+        type: String,
+    },
     date: {
         type: String
     },
@@ -26,8 +32,8 @@ defineProps({
 
 <template>
     <NuxtLink :href="slug">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 px-6">
-            <img class="w-full" src="logos/github.svg" alt="Sunset in the mountains">
+        <div class="max-w-sm rounded-lg overflow-hidden shadow-lg m-3 p-6 border border-gray-100">
+            <img class="w-full rounded" :src="img" :alt="imgAlt">
             <div class="py-4">
                 <h2 class="font-semibold text-3xl mb-2">{{ title }}</h2>
                 <em>

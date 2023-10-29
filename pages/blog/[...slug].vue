@@ -1,7 +1,8 @@
 <template>
     <ContentRenderer :value="blog">
         <template #default="blog">
-            <article class="prose flex flex-col grow mx-10 px-3 items-center justify-center text-justify max-w-2xl">
+            <article
+                class="prose flex flex-col grow mx-6 my-10 justify-center text-left max-w-2xl sm:text-justify sm:mx-auto">
                 <h1 class="text-4xl">{{ blog.value.title }}</h1>
                 <ContentRendererMarkdown :value="blog.value" />
             </article>

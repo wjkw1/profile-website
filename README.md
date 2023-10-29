@@ -1,9 +1,3 @@
-# Notes to self
-
-1. You're using `yarn`to install packages in this project.
-2. Your figma docs are here: https://www.figma.com/file/7ozhVKVIV79iMiiZbIjOBI/Western-Wilson-Website?type=design&node-id=578169-455&mode=design&t=JmnkISJ5zdDrVODJ-0
-3. Design for mobile first, then add breakpoints for larger screens.
-
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -32,13 +26,13 @@ yarn dev -o
 Build the application for production:
 
 ```bash
-npm run build
+yarn generate
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -1,58 +1,41 @@
 ---
-title: SSH-ing using VS Code
-date: '2021-09-26'
+title: "Supercharge Your SSH with VS Code: A Step-by-Step Guide"
+date: 2023/10/29
 description: 'Whether you’re a seasoned tech enthusiast or just starting out, this post will show you how to use VS Code to SSH into other boxes and write scripts on various servers.'
-draft: true
+img: "/blog/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg"
+imgAlt: "Screenshot of dark mode vs code."
 ---
 
-# Overview
-<!-- TODO write the value add from reading this blog -->
+_Have you ever wished you could use the full feature set of Visual Studio Code (VS Code) while connecting to remote servers via SSH? If you're a developer or sysadmin, you'll appreciate the productivity boost this can bring. In this blog post, we'll walk you through the process of setting up VS Code as your primary SSH tool for both work and home use. Let's dive in!_
 
-VS Code is so good, there are extensions for all types of development activities.
+## Overview
 
-One very useful tip I learnt recently was how to set up VS code to be my primary ssh tool at work and at home. This way, you can use VS Codes full feature set while ssh-ing onto other boxes.
+VS Code is renowned for its versatility and has extensions for all types of development activities. This guide will show you how to harness its power as an SSH client, giving you a seamless development experience on remote servers.
 
-## What is VS Code
-<!-- What is VS Code -->
+## What is VS Code?
+
+Before we get started, let's quickly clarify what VS Code is. [Visual Studio Code](https://code.visualstudio.com/), often referred to as VS Code, is a free, open-source code editor developed by Microsoft. It's widely used in the software development industry and is known for its robust features and extensibility.
 
 ## What is SSH?
-<!-- TODO write this section -->
 
+[SSH](https://en.wikipedia.org/wiki/Secure_Shell) stands for Secure Shell, and it's a network protocol used for secure data communication, remote command-line access, and other network services. It's a fundamental tool for connecting to remote servers securely.
 
-## Terminology for this blog
+## Terminology for this Blog
+
+Before we jump into the step-by-step guide, let's clarify some terms we'll be using throughout the blog:
 
 | Words    | Meaning                                                    |
 | -------- | ---------------------------------------------------------- |
 | ssh box  | The OTHER PC or box that you intend to ssh onto            |
-| local pc | Your main PC you will use vs code on to ssh to other boxes |
+| local pc | Your main PC you will use VS Code on to ssh to other boxes |
 
-# Step by step guide
+Now that we have the terminology sorted, let's proceed with the step-by-step guide.
 
-It's a 3 step process:
+# Step-by-Step Guide
 
-1. install the vs code required files on the linux box/ box you want to ssh into
-1. setup your ssh config file for vs code
-1. (_optional_) create an ssh key to make logging in effortless
-1. Enjoy vs code features while ssh-ing onto other pc!!
+Setting up VS Code as your primary SSH tool is a simple three-step process. Here's what we'll cover:
 
-## Installing required VS Code packages on ssh box
+1. Installing the required VS Code packages on the SSH box.
+2. Setting up your SSH config file for VS Code.
+3. (_Optional_) Creating an SSH key for effortless logins.
 
-## Setting up your ssh config file
-
-## Creating an ssh key (_OPTIONAL_)
-
-If you don't mind typing out passwords every time you login to your ssh sessions, then feel free to skip this step. I hate having to constantly type out my password, it's relatively easy to setup so I recommend you do it.
-
-You'll need to add your public key to every box you want to ssh onto
-
-This is also a 3 step process
-
-1. Generate your ssh key
-1. Append your ssh **public key** to your `~/.ssh/authorized_keys` file on the intended box you want to ssh to quickly!
-1. On your local PC, add the ssh key as your `` into your VS Code config
-
-### 1. Generating an ssh key
-
-### 2. Appending to `authorized_keys` file
-
-### 3. Specify the ssh key to use for your ssh connections
