@@ -9,12 +9,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@heroicons/vue": "^2.0.18",
+    "@nuxtjs/tailwindcss": "^6.8.1",
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^18",
     "nuxt": "^3.5.1"
   },
   "dependencies": {
     "@nuxt/content": "^2.8.5",
-    "@nuxt/image": "^1.0.0-rc.2"
+    "@nuxt/image": "^1.0.0-rc.2",
+    "postcss-custom-properties": "^13.3.2"
   }
 }

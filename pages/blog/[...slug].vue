@@ -1,9 +1,10 @@
-<!-- <ContentDoc :path="$route.params._path.md ? `/blog/${$route.params._path[0].md}` : '/blog'"> -->
 <template>
     <ContentRenderer :value="blog">
         <template #default="blog">
-            <h1>{{ blog.title }}</h1>
-            <ContentRendererMarkdown :value="blog" />
+            <article class="prose flex flex-col grow mx-10 px-3 items-center justify-center text-justify max-w-2xl">
+                <h1 class="text-4xl">{{ blog.value.title }}</h1>
+                <ContentRendererMarkdown :value="blog.value" />
+            </article>
         </template>
         <template #empty>
             <main class="flex flex-col grow mx-10 px-3 items-center justify-center text-center">
@@ -16,12 +17,11 @@
     </ContentRenderer>
 </template>
 
-
 <script setup>
 const route = useRoute()
 const path = computed(() => route.path)
 const { data: blog } = await useAsyncData(
-    "blog",
+    "filename",
     () => queryContent("blog").where({ _path: path.value }).findOne())
 </script>
   

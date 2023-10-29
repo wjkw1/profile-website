@@ -1,6 +1,3 @@
-<!-- TODO add search https://github.com/cleavr/docs-template -->
-# TODO cycle through Wellington-based, and replace with: New Zealand located, Planet Earth being
-# TODO cycle through problem-solver, DevOps Engineer, Māori, Kiwi, Team Player
 <template>
     <main class="flex flex-col grow mx-10 px-3 items-center justify-center text-center">
         <p class="text-2xl py-10">I'm a Wellington-based problem solver working as a DevOps
