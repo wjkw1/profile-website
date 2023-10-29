@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   mode: "static",
   router: {
-    base: "/wjkw1/profile-website/",
+    base: "/profile-website/",
   },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/content"],
   tailwindcss: {
