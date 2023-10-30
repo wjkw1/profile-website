@@ -2,6 +2,7 @@
 title: Developer dynamics
 date: "2023-10-28"
 description: "Explore the developer archetypes in a workplace. Detectives solve issues, Cowboys code quickly, Artists prioritize aesthetics, and Mad Scientists innovate with tech. Understanding these types can boost team dynamics."
+tags: ["DevArchetypes","TeamCollaboration","SoftwareDev", "WorkplaceDiversity", "FLINTWellington"]
 img: "/blog/annie-spratt-QckxruozjRg-unsplash.jpg"
 imgAlt: "Team of Developers Working."
 ---

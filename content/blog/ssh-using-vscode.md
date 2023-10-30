@@ -2,8 +2,10 @@
 title: "Supercharge Your SSH with VS Code: A Step-by-Step Guide"
 date: 2023/10/29
 description: 'Whether you’re a seasoned tech enthusiast or just starting out, this post will show you how to use VS Code to SSH into other boxes and write scripts on various servers.'
+tags: ["VSCode","SSH","DevTools", "Productivity", "Tutorial"]
 img: "/blog/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg"
 imgAlt: "Screenshot of dark mode vs code."
+draft: true
 ---
 
 _Have you ever wished you could use the full feature set of Visual Studio Code (VS Code) while connecting to remote servers via SSH? If you're a developer or sysadmin, you'll appreciate the productivity boost this can bring. In this blog post, we'll walk you through the process of setting up VS Code as your primary SSH tool for both work and home use. Let's dive in!_

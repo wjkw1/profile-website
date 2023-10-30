@@ -1,8 +1,8 @@
 ---
 title: "Unleashing the Writer Within: How ChatGPT Transformed My Writing"
-description: "I don't consider myself a writer... but I'm gonna try, so read on to see how."
 date: 22/10/2023
-tags: ["writer","learning","ai"]
+description: "I don't consider myself a writer... but I'm gonna try, so read on to see how."
+tags: ["AI","Writer","SelfImprovement", "WritingTips"]
 img: "/blog/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg"
 imgAlt: "Writer desk setup, with macbook, coffee, notebook and pen."
 ---

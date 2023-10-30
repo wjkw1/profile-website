@@ -3,6 +3,7 @@ title: Talking Tech, to Non-Tech
 date: "2020-08-17"
 description: "Key takeaways from a workshop on explaining technical concepts to non-technical audiences."
 img: "/blog/sincerely-media-dGxOgeXAXm8-unsplash.jpg"
+tags: ["TechnicalCommunication","AnalogiesInTech","APIExplained", "TeamCollaboration", "SoftwareDev"]
 imgAlt: "Photo of peoples laps at a conference."
 ---
 
