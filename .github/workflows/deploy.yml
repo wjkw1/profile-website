@@ -1,28 +1,45 @@
-permissions:
-  contents: write
-
-# TODO Check that the output directory even has the required assets to deploy
-# TODO switch to the branch and see what is there
-
-name: Release
+# https://github.com/actions/deploy-pages#usage
+name: Deploy to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Install dependencies
-        run: yarn install
-      - name: Build
-        run: yarn generate
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - uses: actions/checkout@v4
+      - run: corepack enable
+      - uses: actions/setup-node@v4
         with:
-          branch: gh-pages
-          folder: dist
+          node-version: "18"
+
+      # Pick your own package manager and build script
+      - run: yarn install
+      - run: yarn generate
+        env:
+          NITRO_PRESET: github_pages
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./.output/public
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+    environment:
+      name: github_pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
