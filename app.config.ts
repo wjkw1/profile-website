@@ -9,15 +9,15 @@ export default defineAppConfig({
   socials: [
     {
       name: "linkedin",
-      alt: "LinkedIn Logo",
+      alt: "LinkedIn",
       url: "https://www.linkedin.com/in/western-wilson",
-      image: "/logos/linkedin.svg",
+      image: "./logos/linkedin.svg",
     },
     {
       name: "github",
-      alt: "GitHub Logo",
+      alt: "GitHub",
       url: "https://github.com/wjkw1",
-      image: "/logos/github.svg",
+      image: "./logos/github.svg",
     },
   ],
 });

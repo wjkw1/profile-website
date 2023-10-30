@@ -1,7 +1,7 @@
 <template>
     <main class="flex grow justify-center mx-10 px-3">
         <div class="flex flex-col items-center justify-center text-justify max-w-2xl">
-            <NuxtImg src="/western-zoom.png" class="rounded-full saturate-100 shadow-xl my-3 sm:m-10" height="200"
+            <NuxtImg src="./western-zoom.png" class="rounded-full saturate-100 shadow-xl my-3 sm:m-10" height="200"
                 width="200" />
             <p class="my-1">Kia ora! I'm a problem solver in the world of IT, based in Wellington. With a
                 BCMS(Hons) degree

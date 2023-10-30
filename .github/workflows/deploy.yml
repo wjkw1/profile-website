@@ -1,9 +1,5 @@
 permissions:
   contents: write
-
-# TODO Check that the output directory even has the required assets to deploy
-# TODO switch to the branch and see what is there
-
 name: Release
 
 on:
