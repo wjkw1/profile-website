@@ -31,7 +31,7 @@ defineProps({
 </script>
 
 <template>
-    <NuxtLink :href="slug">
+    <a :href="slug">
         <div class="max-w-sm rounded-lg overflow-hidden shadow-lg m-3 p-6 border border-gray-100">
             <img class="w-full rounded" :src="img" :alt="imgAlt">
             <div class="py-4">
@@ -50,5 +50,5 @@ defineProps({
                         tag }}</span>
             </div>
         </div>
-    </NuxtLink>
+    </a>
 </template>
