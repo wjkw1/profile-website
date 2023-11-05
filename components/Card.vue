@@ -26,6 +26,9 @@ defineProps({
     tags: {
         type: Array,
         default: () => []
+    },
+    readTime: {
+        type: String,
     }
 })
 </script>
@@ -37,7 +40,7 @@ defineProps({
             <div class="py-4">
                 <h2 class="font-semibold text-3xl mb-2">{{ title }}</h2>
                 <em>
-                    <p v-if="date" class="my-1 text-sm text-gray-600 font-light">{{ date }}
+                    <p v-if="date" class="my-1 text-sm text-gray-600 font-light">{{ date }} • {{ readTime }}
                     </p>
                 </em>
                 <p class="text-gray-600 text-base">

@@ -5,6 +5,7 @@ description: "Explore the developer archetypes in a workplace. Detectives solve 
 tags: ["DevArchetypes","TeamCollaboration","SoftwareDev", "WorkplaceDiversity", "FLINTWellington"]
 img: "/blog/annie-spratt-QckxruozjRg-unsplash.jpg"
 imgAlt: "Team of Developers Working."
+readTime: "2 mins"
 ---
 
 *Full disclosure, I first heard of these architypes from a workshop run in 2020 by [FLINT Wellington](https://tuanz.org.nz/flint/flint-wellington/)*
