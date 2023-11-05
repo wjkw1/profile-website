@@ -5,6 +5,7 @@ description: "Key takeaways from a workshop on explaining technical concepts to 
 img: "/blog/sincerely-media-dGxOgeXAXm8-unsplash.jpg"
 tags: ["TechnicalCommunication","AnalogiesInTech","APIExplained", "TeamCollaboration", "SoftwareDev"]
 imgAlt: "Photo of peoples laps at a conference."
+readTime: "3 mins"
 ---
 
 _Early in my career, I attended a workshop to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids._

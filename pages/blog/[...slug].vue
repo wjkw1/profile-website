@@ -4,6 +4,7 @@
             <article
                 class="prose flex flex-col grow mx-6 my-10 justify-center text-left max-w-2xl sm:text-justify sm:mx-auto">
                 <h1 class="text-4xl">{{ blog.value.title }}</h1>
+                <h3 class="text-lg text-sm italic">{{ blog.value.date }} • {{ blog.value.readTime }}</h3>
                 <ContentRendererMarkdown :value="blog.value" />
             </article>
         </template>
