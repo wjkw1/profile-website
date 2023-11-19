@@ -20,5 +20,5 @@ function formatDate(time) {
 
 const { data: blogs } = await useAsyncData(
     "blogs",
-    () => queryContent("blog").find() )
+    () => queryContent("blog").sort({date: -1}).find() )
 </script>
