@@ -4,7 +4,7 @@
             <article
                 class="prose flex flex-col grow mx-6 my-10 justify-center text-left max-w-2xl sm:text-justify sm:mx-auto">
                 <h1 class="text-4xl">{{ blog.value.title }}</h1>
-                <h3 class="text-sm italic">Posted: {{ formatDate(blog.value.date) }} • Time to Read: {{ blog.value.readTime }}</h3>
+                <h3 class="text-sm italic">{{ formatDate(blog.value.date) }} • {{ blog.value.readTime }}</h3>
                 <ContentRendererMarkdown :value="blog.value"/>
             </article>
         </template>
@@ -20,15 +20,8 @@
 </template>
 
 <script setup>
-function formatDate(time) {
-    const date = new Date(time);
-    const options = {
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-    }
-    return date.toLocaleString("en", options)
-}
+import { useDateFormat } from '@vueuse/core'
+const formatDate = (date) => useDateFormat(date, 'MMM DD, YYYY').value;
 
 const route = useRoute()
 const path = computed(() => route.path)
