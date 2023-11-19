@@ -15,7 +15,7 @@ function formatDate(time) {
         month: "short",
         day: "numeric"
     }
-    return date.toLocaleString("default", options)
+    return date.toLocaleString("en", options)
 }
 
 const { data: blogs } = await useAsyncData(

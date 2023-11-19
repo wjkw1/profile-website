@@ -4,8 +4,8 @@
             <article
                 class="prose flex flex-col grow mx-6 my-10 justify-center text-left max-w-2xl sm:text-justify sm:mx-auto">
                 <h1 class="text-4xl">{{ blog.value.title }}</h1>
-                <h3 class="text-lg text-sm italic">{{ blog.value.date }} • {{ blog.value.readTime }}</h3>
-                <ContentRendererMarkdown :value="blog.value" />
+                <h3 class="text-sm italic">Posted: {{ formatDate(blog.value.date) }} • Time to Read: {{ blog.value.readTime }}</h3>
+                <ContentRendererMarkdown :value="blog.value"/>
             </article>
         </template>
         <template #empty>
@@ -20,6 +20,16 @@
 </template>
 
 <script setup>
+function formatDate(time) {
+    const date = new Date(time);
+    const options = {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+    }
+    return date.toLocaleString("en", options)
+}
+
 const route = useRoute()
 const path = computed(() => route.path)
 const { data: blog } = await useAsyncData(
