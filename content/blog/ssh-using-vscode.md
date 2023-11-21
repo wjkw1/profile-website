@@ -2,7 +2,7 @@
 title: "Supercharge Your SSH with VS Code: A Step-by-Step Guide"
 date: "2023-10-29"
 description: 'Whether you’re a seasoned tech enthusiast or just starting out, this post will show you how to use VS Code to SSH into other boxes and write scripts on various servers.'
-tags: ["VSCode","SSH","DevTools", "Productivity", "Tutorial"]
+tags: ["Technology", "Productivity", "Guide"]
 img: "/blog/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg"
 imgAlt: "Screenshot of dark mode vs code."
 readTime: "2 mins"
