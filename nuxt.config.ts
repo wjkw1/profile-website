@@ -4,8 +4,14 @@ export default defineNuxtConfig({
   router: {
     base: "/profile-website/",
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/content"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/image",
+    "@nuxt/content",
+    "nuxt-swiper",
+  ],
   tailwindcss: {
     cssPath: "~/assets/css/main.css",
   },
+  swiper: { prefix: "Swiper" },
 });
