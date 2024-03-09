@@ -4,8 +4,16 @@ export default defineNuxtConfig({
   router: {
     base: "/profile-website/",
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/content"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/image",
+    "@nuxt/content",
+    "@nuxtjs/plausible",
+  ],
   tailwindcss: {
     cssPath: "~/assets/css/main.css",
+  },
+  plausible: {
+    domain: "westernwilson.com",
   },
 });
