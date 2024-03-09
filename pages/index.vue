@@ -12,7 +12,7 @@
                     href="https://unsplash.com/@wjkw1">Unsplash</a>.
             </p>
             <p class="text-2xl py-10">Connect with me on <a class="text-blue-600 visited:text-purple-600"
-                    href="https://www.linkedin.com/in/western-wilson">LinkedIn</a> or any socials above!
+                    href="https://www.linkedin.com/in/western-wilson">LinkedIn</a> or any socials!
             </p>
         </div>
     </main>
