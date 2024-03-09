@@ -1,11 +1,11 @@
 ---
-title: "Supercharge Your SSH with VS Code: A Step-by-Step Guide"
+title: "Supercharge Your SSH with VS Code"
 date: "2023-10-29"
 description: 'Whether you’re a seasoned tech enthusiast or just starting out, this post will show you how to use VS Code to SSH into other boxes and write scripts on various servers.'
 tags: ["VSCode","SSH","DevTools", "Productivity", "Tutorial"]
 img: "/blog/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg"
 imgAlt: "Screenshot of dark mode vs code."
-readTime: "2 mins"
+readTime: "3 mins"
 ---
 
 _Have you ever wished you could use the full feature set of Visual Studio Code (VS Code) while connecting to remote servers via SSH? If you're a developer or sysadmin, you'll appreciate the productivity boost this can bring. In this blog post, we'll walk you through the process of setting up VS Code as your primary SSH tool for both work and home use. Let's dive in!_
@@ -31,7 +31,8 @@ For a detailed, step-by-step guide on setting up VS Code as your primary SSH too
 In a nutshell, here's a brief overview of what you'll find in the official tutorial:
 
 - Installing the required VS Code packages on the SSH box.
-- Setting up your SSH config file for VS Code.
+- Installing the Remote Developer extension on your local machine's VS Code.
+- Setting up your SSH config file for VS Code for easy reconnection.
 - (_Optional_) Creating an SSH key for effortless logins.
 
-For a comprehensive guide with detailed instructions and examples, make sure to explore the official tutorial. It's the best resource to get you started on this journey with VS Code and SSH.
+By enabling VS Code's ssh capabilities you can centralise the tool you use for development. Happy coding!
