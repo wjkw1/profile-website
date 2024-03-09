@@ -1,16 +1,7 @@
----
-name: Pull Request
-about: The default Pull Request template.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 # Description
 <!-- Please include a summary of the change and which issue is fixed -->
 
-## Proposed Changes
+## Changes
 <!-- Please describe the proposed changes -->
 - example change here
 
