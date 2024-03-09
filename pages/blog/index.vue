@@ -14,4 +14,8 @@ const formatDate = (date) => useDateFormat(date, 'MMM DD, YYYY').value;
 const { data: blogs } = await useAsyncData(
     "blogs",
     () => queryContent("blog").sort({date: -1}).find() )
+
+useHead({
+  title: "- Blog"
+})
 </script>

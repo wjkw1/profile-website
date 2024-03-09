@@ -16,4 +16,9 @@ export default defineNuxtConfig({
   plausible: {
     domain: "westernwilson.com",
   },
+  app: {
+    head: {
+      titleTemplate: 'Western Wilson %s'
+    },
+  }
 });

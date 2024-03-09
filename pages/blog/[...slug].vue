@@ -5,7 +5,7 @@
                 class="prose flex flex-col grow mx-6 my-10 justify-center text-left max-w-2xl sm:text-justify sm:mx-auto">
                 <h1 class="text-4xl">{{ blog.value.title }}</h1>
                 <h3 class="text-sm italic">{{ formatDate(blog.value.date) }} • {{ blog.value.readTime }}</h3>
-                <ContentRendererMarkdown :value="blog.value"/>
+                <ContentRendererMarkdown :value="blog.value" />
             </article>
         </template>
         <template #empty>
@@ -28,5 +28,15 @@ const path = computed(() => route.path)
 const { data: blog } = await useAsyncData(
     "filename",
     () => queryContent("blog").where({ _path: path.value }).findOne())
+
+if (blog.value) {
+    useHead({
+        title: `- ${blog.value.title}`
+    })
+} else {
+    useHead({
+        title: `- 404 Blog not found`
+    })
+}
+
 </script>
-  
