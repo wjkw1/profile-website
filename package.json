@@ -15,6 +15,7 @@
     "@nuxtjs/tailwindcss": "^6.8.1",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^18",
+    "feed": "^4.2.2",
     "gh-pages": "^6.0.0",
     "nuxt": "^3.5.1"
   },
