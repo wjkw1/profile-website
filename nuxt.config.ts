@@ -20,5 +20,10 @@ export default defineNuxtConfig({
     head: {
       titleTemplate: 'Western Wilson %s'
     },
+  },
+  nitro: {
+    prerender: {
+      routes: ['/rss.xml']
+    }
   }
 });
