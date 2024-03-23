@@ -12,16 +12,17 @@ export default defineEventHandler(async (event) => {
       id: BASE_URL,
       link: BASE_URL,
       language: "en",
-      image: `${BASE_URL}/favicon.ico`,
+      image: `${BASE_URL}/western-zoom.png`,
       favicon: `${BASE_URL}/favicon.ico`,
       copyright: `All rights reserved ${new Date().getFullYear()}, ${AUTHOR_NAME}`,
       updated: new Date(),
       generator: "Nuxt static site generation + Feed for Node.js",
       feedLinks: {
-        rss2: `${BASE_URL}/rss`
+        atom: `${BASE_URL}/rss.xml`
       },
       author: {
         name: AUTHOR_NAME,
+        link: BASE_URL
       }
     });
 
@@ -30,7 +31,7 @@ export default defineEventHandler(async (event) => {
     blogs.forEach((post) => {
       feed.addItem({
         title: post.title ? post.title : "Missing Title",
-        id: post._path,
+        id: `${BASE_URL}${post._path}`,
         link: `${BASE_URL}${post._path}`,
         description: post.description,
         author: [
