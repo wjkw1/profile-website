@@ -38,3 +38,8 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+### Updating packages
+
+Update all dependencies to their latest versions within the constraints specified in package.json:
+`yarn upgrade --latest`
