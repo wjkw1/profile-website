@@ -5,6 +5,9 @@ description: "Key takeaways from a workshop on explaining technical concepts to 
 img: "/blog/sincerely-media-dGxOgeXAXm8-unsplash.jpg"
 tags: ["TechnicalCommunication","AnalogiesInTech","APIExplained", "TeamCollaboration", "SoftwareDev"]
 imgAlt: "Photo of peoples laps at a conference."
+imgArtistName: "Sincerely Media"
+imgArtistSource: "https://unsplash.com/@sincerelymedia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+imgSource: "https://unsplash.com/photos/woman-reading-book-dGxOgeXAXm8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
 readTime: "3 mins"
 ---
 

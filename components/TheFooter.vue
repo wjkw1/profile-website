@@ -18,7 +18,7 @@ const appConfig = useAppConfig()
                     Blog
                 </NuxtLink>
             </div>
-            <div class="w-full my-1 text-center sm:my-0">
+            <div class="w-full my-1 text-center items-center space-x-1 sm:my-0">
                 <a v-for="social in  appConfig.socials" :href="social.url">
                     <NuxtImg :src="social.image" :alt="social.alt" class="h-8 w-8 inline-block mx-1 sm:mx-1" />
                 </a>

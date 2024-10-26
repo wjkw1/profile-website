@@ -5,6 +5,9 @@ description: "Explore the developer archetypes in a workplace. Detectives solve 
 tags: ["DevArchetypes","TeamCollaboration","SoftwareDev", "WorkplaceDiversity", "FLINTWellington"]
 img: "/blog/annie-spratt-QckxruozjRg-unsplash.jpg"
 imgAlt: "Team of Developers Working."
+imgArtistName: "Annie Spratt"
+imgArtistSource: "https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+imgSource: "https://unsplash.com/photos/group-of-people-using-laptop-computer-QckxruozjRg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
 readTime: "2 mins"
 ---
 

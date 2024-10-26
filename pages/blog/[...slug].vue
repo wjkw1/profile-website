@@ -3,8 +3,13 @@
         <template #default="blog">
             <article
                 class="prose flex flex-col grow mx-6 my-10 justify-center text-left max-w-2xl sm:text-justify sm:mx-auto">
-                <h1 class="text-4xl">{{ blog.value.title }}</h1>
-                <h3 class="text-sm italic">{{ formatDate(blog.value.date) }} • {{ blog.value.readTime }}</h3>
+                <NuxtImg :src="blog.value.img" :alt="blog.value.imgAlt" width="1200" height="300" loading="eager"
+                    :placeholder="[1200,300]" class="my-0" />
+                <p class="text-sm italic text-slate-500 text-center"><a :href="blog.value.imgSource">Photo</a> by <a :href="blog.value.imgArtistSource">{{
+                    blog.value.imgArtistName }}</a></p>
+                <h1 class="text-5xl mb-0 mt-2">{{ blog.value.title }}</h1>
+                <h3 class="text-sm italic text-slate-500">{{ formatDate(blog.value.date) }} • {{ blog.value.readTime }} read
+                </h3>
                 <ContentRendererMarkdown :value="blog.value" />
             </article>
         </template>

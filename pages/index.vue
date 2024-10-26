@@ -5,11 +5,9 @@
             <p class="text-2xl py-10">Kia ora and welcome to my slice of the internet!
             </p>
             <p class="text-2xl py-10">Check out my <NuxtLink to="/blog" class="text-blue-600 visited:text-purple-600">
-                    blog</NuxtLink>, join me on <a class="text-blue-600 visited:text-purple-600"
+                    blog</NuxtLink>, and join me on <a class="text-blue-600 visited:text-purple-600"
                     href="https://www.goodreads.com/wjkw1">goodreads</a>
-                to see what I'm reading, and
-                take a look at my photos on <a class="text-blue-600 visited:text-purple-600"
-                    href="https://unsplash.com/@wjkw1">Unsplash</a>.
+                to see what I'm reading.
             </p>
             <p class="text-2xl py-10">Connect with me on <a class="text-blue-600 visited:text-purple-600"
                     href="https://www.linkedin.com/in/western-wilson">LinkedIn</a> or any socials!
@@ -20,6 +18,6 @@
 
 <script setup>
 useHead({
-  title: "- Kia ora and welcome to my slice of the internet!"
+    title: "- Kia ora and welcome to my slice of the internet!"
 })
 </script>

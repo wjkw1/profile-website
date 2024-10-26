@@ -5,6 +5,9 @@ description: 'Whether you’re a seasoned tech enthusiast or just starting out, 
 tags: ["VSCode","SSH","DevTools", "Productivity", "Tutorial"]
 img: "/blog/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg"
 imgAlt: "Screenshot of dark mode vs code."
+imgArtistName: "Mohammad Rahmani"
+imgArtistSource: "https://unsplash.com/@afgprogrammer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+imgSource: "https://unsplash.com/photos/black-flat-screen-computer-monitor-oXlXu2qukGE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
 readTime: "3 mins"
 ---
 

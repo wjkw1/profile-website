@@ -5,6 +5,9 @@ description: "I don't consider myself a writer... but I'm gonna try, so read on 
 tags: ["AI","Writer","SelfImprovement", "WritingTips"]
 img: "/blog/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg"
 imgAlt: "Writer desk setup, with macbook, coffee, notebook and pen."
+imgArtistName: "Nick Morrison"
+imgArtistSource: "https://unsplash.com/@nickmorrison?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+imgSource: "https://unsplash.com/photos/macbook-pro-near-white-open-book-FHnnjk1Yj7Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
 readTime: "3 mins"
 ---
 
