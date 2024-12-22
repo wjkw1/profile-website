@@ -36,12 +36,12 @@ They shared with me [this amazing blog](https://www.ut-ie.com/b/b_flowers.html) 
 
 - **Madman** - full of ideas, jumbled thoughts and is where writing should start
 - **Architect** - arranges the jumble into potential arguments, at the paragraph level
-- **Carpenter** - sculpts the sentences into logical structure to make better sense
+- **Carpenter** - sculpts the sentences into a logical structure to make better sense
 - **Judge** - critical energy as the inspector and will check the facts of what is written
 
-Applying these roles to my own writing revealed a crucial insight: that my writer's paralysis was me prematurely judging the madman before he could cook. I'd critisise the words, sentences, paragraph, headings, scope, purpose, before my madman even had a chance to shine. No wonder I got scared of writing.
+Applying these roles to my own writing revealed a crucial insight: that my writer's paralysis was me prematurely judging the madman before he could cook. I'd critisise the words, sentences, paragraph, headings, scope, purpose, before my madman even had a chance to shine. No wonder I got scared of writing, and wrote at a snail pace.
 
-The madman within needs some air-time, sometimes you just need a good ol brain dump. And giving myself that permission totally freed me from the fear of writing.Nowadays as soon as I feel myself being critical I catch myself and think: "is it time to judge yet?".
+The madman within needs some air time; sometimes you just need a good ol' brain dump. Giving myself that permission totally freed me from the fear of writing. Nowadays, as soon as I feel myself being critical, I catch myself and think: "Is it time to judge yet?"
 
 ## Final points
 
