@@ -21,11 +21,6 @@ const appConfig = useAppConfig()
                     active-class="rounded-lg px-3 py-2 text-slate-700 font-medium underline hover:bg-slate-100 hover:text-slate-900">
                     Blog
                 </NuxtLink>
-                <NuxtLink to="/credits"
-                    class="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900"
-                    active-class="rounded-lg px-3 py-2 text-slate-700 font-medium underline hover:bg-slate-100 hover:text-slate-900">
-                    Credits
-                </NuxtLink>
             </div>
         </nav>
     </header>

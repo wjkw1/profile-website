@@ -27,11 +27,5 @@ export default defineNuxtConfig({
     },
   },
 
-  nitro: {
-    prerender: {
-      routes: ['/rss.xml']
-    }
-  },
-
   compatibilityDate: "2024-10-26"
 });

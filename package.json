@@ -10,19 +10,19 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "@heroicons/vue": "^2.1.5",
-    "@nuxtjs/plausible": "^1.0.3",
-    "@nuxtjs/tailwindcss": "^6.12.2",
-    "@tailwindcss/typography": "^0.5.15",
-    "@types/node": "^22.8.1",
+    "@heroicons/vue": "^2.2.0",
+    "@nuxtjs/plausible": "^1.2.0",
+    "@nuxtjs/tailwindcss": "^6.13.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^22.13.14",
     "feed": "^4.2.2",
-    "gh-pages": "^6.2.0",
-    "nuxt": "^3.13.2"
+    "gh-pages": "^6.3.0",
+    "nuxt": "^3.16.1"
   },
   "dependencies": {
-    "@nuxt/content": "^2.13.4",
-    "@nuxt/image": "^1.8.1",
-    "@vueuse/core": "^11.1.0",
-    "postcss-custom-properties": "^14.0.3"
+    "@nuxt/content": "^3.4.0",
+    "@nuxt/image": "^1.10.0",
+    "@vueuse/core": "^13.0.0",
+    "postcss-custom-properties": "^14.0.4"
   }
 }
