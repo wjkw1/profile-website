@@ -1,20 +1,46 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
+  compatibilityDate: "2024-11-01",
   mode: "static",
 
   router: {
     base: "/profile-website/",
   },
 
+  content: {
+    build: {
+      markdown: {
+        toc: {
+          depth: 2,
+          searchDepth: 2,
+        },
+        highlight: {
+          theme: {
+            // Default theme (same as single string)
+            default: "github-light",
+            // Theme used if `html.dark`
+            dark: "github-dark",
+            // Theme used if `html.sepia`
+            sepia: "monokai",
+          },
+        },
+      },
+    },
+  },
+
   modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/image",
     "@nuxt/content",
+    "@nuxt/icon",
+    "@nuxt/image",
+    "@nuxt/eslint",
+    "@nuxt/fonts",
     "@nuxtjs/plausible",
   ],
 
-  tailwindcss: {
-    cssPath: "~/assets/css/main.css",
+  css: ["~/assets/css/main.css"],
+  vite: {
+    plugins: [tailwindcss()],
   },
 
   plausible: {
@@ -23,9 +49,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      titleTemplate: 'Western Wilson %s'
+      titleTemplate: "Western Wilson %s",
     },
   },
-
-  compatibilityDate: "2024-10-26"
 });
