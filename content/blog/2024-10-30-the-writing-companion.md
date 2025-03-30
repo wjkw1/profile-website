@@ -20,7 +20,7 @@ When referring to AI in this post, I specifically mean large language models (LL
 
 ## Before
 
-How I worked with AI in the past is silly. Using AI to generate content makes the writing sound generic and peppered with buzzwords that people never use. I mean, check the title and content of my last blog posts: ['Unleashing the Writer Within: How ChatGPT Transformed My Writing'](/blog/im-not-a-writer), and ['Supercharge Your SSH with VS Code'](/blog/ssh-using-vscode). 🫣
+How I worked with AI in the past is silly. Using AI to generate content makes the writing sound generic and peppered with buzzwords that people never use. I mean, check the title and content of my last blog posts: ['Unleashing the Writer Within: How ChatGPT Transformed My Writing'](/blog/2023-11-6-im-not-a-writer), and ['Supercharge Your SSH with VS Code'](/blog/2023-10-29-ssh-using-vscode). 🫣
 
 AI generated content has telltale signs when you see words like: unleashed, supercharge, delve, crucial, [more examples here](https://arstechnica.com/ai/2024/07/the-telltale-words-that-could-identify-generative-ai-text/). The silver lining is that AI taught me more words - the problem is these new words didn't feel authentic to me.
 
