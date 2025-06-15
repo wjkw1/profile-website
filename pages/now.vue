@@ -33,9 +33,3 @@
         </article>
     </main>
 </template>
-
-<script setup>
-useHead({
-    title: "- Kia ora and welcome to my slice of the internet!"
-})
-</script>

@@ -3,11 +3,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   mode: "static",
-
   router: {
     base: "/profile-website/",
   },
-
   content: {
     build: {
       markdown: {
@@ -45,11 +43,5 @@ export default defineNuxtConfig({
 
   plausible: {
     domain: "westernwilson.com",
-  },
-
-  app: {
-    head: {
-      titleTemplate: "Western Wilson %s",
-    },
   },
 });

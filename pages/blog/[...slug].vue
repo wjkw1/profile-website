@@ -26,22 +26,17 @@
 import { useDateFormat } from '@vueuse/core'
 const formatDate = (date) => useDateFormat(date, 'MMM DD, YYYY').value;
 
-const slug = useRoute().params.slug
-const { data: blog } = await useAsyncData(`blog-${slug}`, () => {
-    return queryCollection('blog').path(`/blog/${slug}`).first()
+const route = useRoute()
+// Normalize slug: remove empty strings from array
+const slugArray = Array.isArray(route.params.slug) 
+  ? route.params.slug.filter(part => part !== '')
+  : [route.params.slug]
+
+// Handle trailing slash edge case
+const cleanSlug = slugArray.join('/').replace(/\/$/, '')
+
+const { data: blog } = await useAsyncData(`blog-${cleanSlug}`, () => {
+    return queryCollection('blog').path(`/blog/${cleanSlug}`).first()
 })
-
-// const route = useRoute()
-// const path = computed(() => route.path)
-
-// if (blog.value) {
-//     useHead({
-//         title: `- ${blog.value.title}`
-//     })
-// } else {
-//     useHead({
-//         title: `- 404 Blog not found`
-//     })
-// }
 
 </script>

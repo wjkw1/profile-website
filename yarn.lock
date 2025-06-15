@@ -6345,7 +6345,7 @@ nuxt-component-meta@^0.11.0:
     ufo "^1.6.1"
     vue-component-meta "^2.2.10"
 
-nuxt@^3.16.1:
+nuxt@^3.17.5:
   version "3.17.5"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.17.5.tgz#9d16ebed84e467f54cb78896ba97dbcf3afe657d"
   integrity sha512-HWTWpM1/RDcCt9DlnzrPcNvUmGqc62IhlZJvr7COSfnJq2lKYiBKIIesEaOF+57Qjw7TfLPc1DQVBNtxfKBxEw==
