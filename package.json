@@ -28,5 +28,6 @@
     "@tailwindcss/vite": "^4.0.17",
     "@vueuse/core": "^13.0.0",
     "postcss-custom-properties": "^14.0.4"
-  }
+  },
+  "version": "0.0.0"
 }
