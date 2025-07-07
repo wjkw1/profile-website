@@ -33,7 +33,7 @@
 import { ref, onMounted } from 'vue'
 
 const redirectUrl = 'https://westernwilson.webflow.io/'
-const redirectDelay = 90000 // 9 seconds
+const redirectDelay = 5000 // 5 seconds
 const progress = ref(0)
 
 onMounted(() => {
