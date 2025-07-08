@@ -28,20 +28,13 @@ export default defineNuxtConfig({
   },
 
   modules: [
-    "@nuxt/content",
-    "@nuxt/icon",
     "@nuxt/image",
     "@nuxt/eslint",
     "@nuxt/fonts",
-    "@nuxtjs/plausible",
   ],
 
   css: ["~/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
-  },
-
-  plausible: {
-    domain: "westernwilson.com",
   },
 });
